@@ -13,6 +13,14 @@
     "template",
     "boilerplate"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YOURMATADOR/react-native-template-recoil-chabelo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/YOURMATADOR/react-native-template-recoil-chabelo/issues"
+  },
+  "homepage": "https://github.com/YOURMATADOR/react-native-template-recoil-chabelo#readme.md",
   "author": "Eduardo Avila <business@eduaravila.com>",
   "license": "MIT"
 }
