@@ -1,6 +1,6 @@
 {
   "name": "react-native-template-recoil-chabelo",
-  "version": "0.0.1-rc.1",
+  "version": "1.0.0-rc.1",
   "description": "React native with batteries included (recoil, @react-navigation/native, typescript)",
   "scripts": {
     "test": "exit 0"
