@@ -3,7 +3,8 @@
   "version": "0.0.1-rc.2",
   "description": "React native with batteries included (recoil, @react-navigation/native, typescript)",
   "scripts": {
-    "test": "exit 0"
+    "test": "exit 0",
+    "release": "np"
   },
   "files": [
     "template",
