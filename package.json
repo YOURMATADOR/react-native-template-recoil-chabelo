@@ -19,7 +19,8 @@
     "boilerplate"
   ],
   "np": {
-    "branch": "main"
+    "branch": "main",
+    "yarn": true
   },
   "repository": {
     "type": "git",
