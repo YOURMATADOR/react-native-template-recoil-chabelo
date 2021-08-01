@@ -5,6 +5,10 @@
   "scripts": {
     "test": "exit 0"
   },
+  "files": [
+    "template",
+    "template.config.js"
+  ],
   "keywords": [
     "react-native",
     "typescript",
@@ -22,5 +26,6 @@
   },
   "homepage": "https://github.com/YOURMATADOR/react-native-template-recoil-chabelo#readme.md",
   "author": "Eduardo Avila <business@eduaravila.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "packageManager": "yarn@3.0.0"
 }
