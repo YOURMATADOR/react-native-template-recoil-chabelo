@@ -28,7 +28,7 @@ specifiers:
   metro-react-native-babel-preset: ^0.64.0
   react: 17.0.1
   react-dom: ^17.0.1
-  react-native: 0.64.1
+  react-native: 0.64.2
   react-native-gesture-handler: ^1.10.3
   react-native-reanimated: ^2.2.0
   react-native-safe-area-context: ^3.2.0
@@ -38,17 +38,17 @@ specifiers:
   typescript: ^3.8.3
 
 dependencies:
-  '@react-native-community/masked-view': 0.1.11_react-native@0.64.1+react@17.0.1
-  '@react-navigation/native': 5.9.4_react-native@0.64.1+react@17.0.1
+  '@react-native-community/masked-view': 0.1.11_react-native@0.64.2+react@17.0.1
+  '@react-navigation/native': 5.9.4_react-native@0.64.2+react@17.0.1
   i18n-js: 3.8.0
   jshint: 2.13.0
   react: 17.0.1
-  react-native: 0.64.1_react@17.0.1
+  react-native: 0.64.2_react@17.0.1
   react-native-gesture-handler: 1.10.3
-  react-native-reanimated: 2.2.0_55580e9f4ab510fb7f4b053776d35899
-  react-native-safe-area-context: 3.2.0_react-native@0.64.1+react@17.0.1
-  react-native-screens: 3.4.0_react-native@0.64.1+react@17.0.1
-  recoil: 0.3.1_d0219ef156635efe3d5f0146e18d2fb7
+  react-native-reanimated: 2.2.0_6c4c06f9e47fbfd33e11ac67420f5729
+  react-native-safe-area-context: 3.2.0_react-native@0.64.2+react@17.0.1
+  react-native-screens: 3.4.0_react-native@0.64.2+react@17.0.1
+  recoil: 0.3.1_430b1ed0f5f809d5617ee61aac8bbc91
 
 devDependencies:
   '@babel/core': 7.14.6
@@ -57,9 +57,9 @@ devDependencies:
   '@storybook/addon-actions': 5.3.21_react-dom@17.0.2
   '@storybook/addon-knobs': 5.3.21_react-dom@17.0.2+react@17.0.1
   '@storybook/addon-links': 5.3.21_react-dom@17.0.2+react@17.0.1
-  '@storybook/addon-ondevice-actions': 5.3.23_a047eab088b166460ae342cae1c25379
-  '@storybook/addon-ondevice-knobs': 5.3.25_4de57f6c55451047c5d9ee12e4465ca2
-  '@storybook/react-native': 5.3.25_d0219ef156635efe3d5f0146e18d2fb7
+  '@storybook/addon-ondevice-actions': 5.3.23_6b85f0d7acc8536f56efda77c68d360f
+  '@storybook/addon-ondevice-knobs': 5.3.25_32655aaa9d047676a340ccd3be2ec9e0
+  '@storybook/react-native': 5.3.25_430b1ed0f5f809d5617ee61aac8bbc91
   '@storybook/react-native-server': 5.3.23_5c5db25f07e00e023807d828b97f4514
   '@types/jest': 26.0.24
   '@types/react-native': 0.64.12
@@ -284,7 +284,7 @@ packages:
     resolution: {integrity: sha512-nfBN9xvmCt6nrMZjfhkl7i0oTV3yxR4/FztsbOASyTvVcoYd0TRHh7eMLdlEcCqobydC0LAF3LtC92Iwxo0wyw==}
     engines: {node: '>=6.9.0'}
     dependencies:
-      '@babel/types': 7.14.5
+      '@babel/types': 7.14.8
 
   /@babel/helper-skip-transparent-expression-wrappers/7.14.5:
     resolution: {integrity: sha512-dmqZB7mrb94PZSAOYtr+ZN5qt5owZIAgqtoTuqiFbHFtxgEcmQlRJVI+bO++fciBunXtB6MK7HrzrfcAzIz2NQ==}
@@ -1318,7 +1318,7 @@ packages:
       '@babel/helper-hoist-variables': 7.14.5
       '@babel/helper-split-export-declaration': 7.14.5
       '@babel/parser': 7.14.7
-      '@babel/types': 7.14.5
+      '@babel/types': 7.14.8
       debug: 4.3.2
       globals: 11.12.0
     transitivePeerDependencies:
@@ -1416,25 +1416,25 @@ packages:
     resolution: {integrity: sha512-Ja/Vfqe3HpuzRsG1oBtWTHk2PGZ7GR+2Vz5iYGelAw8dx32K0y7PjVuxK6z1nMpZOqAFsRUPCkK1YjJ56qJlgw==}
     dev: true
 
-  /@emotion/native/10.0.27_49206b4ff6f638f8275db9ba7db58308:
+  /@emotion/native/10.0.27_19640c4a5f707fd5c5263f51683ec97f:
     resolution: {integrity: sha512-3qxR2XFizGfABKKbX9kAYc0PHhKuCEuyxshoq3TaMEbi9asWHdQVChg32ULpblm4XAf9oxaitAU7J9SfdwFxtw==}
     peerDependencies:
       react-native: '>=0.14.0 <1'
     dependencies:
       '@emotion/primitives-core': 10.0.27_10fff9175f8ec0d065857495de794004
-      react-native: 0.64.1_react@17.0.1
+      react-native: 0.64.2_react@17.0.1
     transitivePeerDependencies:
       - '@emotion/core'
       - react
     dev: true
 
-  /@emotion/native/10.0.27_react-native@0.64.1+react@17.0.1:
+  /@emotion/native/10.0.27_react-native@0.64.2+react@17.0.1:
     resolution: {integrity: sha512-3qxR2XFizGfABKKbX9kAYc0PHhKuCEuyxshoq3TaMEbi9asWHdQVChg32ULpblm4XAf9oxaitAU7J9SfdwFxtw==}
     peerDependencies:
       react-native: '>=0.14.0 <1'
     dependencies:
       '@emotion/primitives-core': 10.0.27_react@17.0.1
-      react-native: 0.64.1_react@17.0.1
+      react-native: 0.64.2_react@17.0.1
     transitivePeerDependencies:
       - '@emotion/core'
       - react
@@ -1943,7 +1943,7 @@ packages:
       ora: 3.4.0
     dev: false
 
-  /@react-native-community/cli/5.0.1_react-native@0.64.1:
+  /@react-native-community/cli/5.0.1_react-native@0.64.2:
     resolution: {integrity: sha512-9VzSYUYSEqxEH5Ib2UNSdn2eyPiYZ4T7Y79o9DKtRBuSaUIwbCUdZtIm+UUjBpLS1XYBkW26FqL8/UdZDmQvXw==}
     engines: {node: '>=12'}
     hasBin: true
@@ -1982,7 +1982,7 @@ packages:
       ora: 3.4.0
       pretty-format: 26.6.2
       prompts: 2.4.1
-      react-native: 0.64.1_react@17.0.1
+      react-native: 0.64.2_react@17.0.1
       semver: 6.3.0
       serve-static: 1.14.1
       strip-ansi: 5.2.0
@@ -2020,14 +2020,14 @@ packages:
     resolution: {integrity: sha512-W/J0fNYVO01tioHjvYWQ9m6RgndVtbElzYozBq1ZPrHO/iCzlqoySHl4gO/fpCl9QEFjvJfjPgtPMTMlsoq5DQ==}
     dev: true
 
-  /@react-native-community/masked-view/0.1.11_react-native@0.64.1+react@17.0.1:
+  /@react-native-community/masked-view/0.1.11_react-native@0.64.2+react@17.0.1:
     resolution: {integrity: sha512-rQfMIGSR/1r/SyN87+VD8xHHzDYeHaJq6elOSCAD+0iLagXkSI2pfA0LmSXP21uw5i3em7GkkRjfJ8wpqWXZNw==}
     peerDependencies:
       react: '>=16.0'
       react-native: '>=0.57'
     dependencies:
       react: 17.0.1
-      react-native: 0.64.1_react@17.0.1
+      react-native: 0.64.2_react@17.0.1
     dev: false
 
   /@react-native/assets/1.0.0:
@@ -2055,7 +2055,7 @@ packages:
       react-is: 16.13.1
     dev: false
 
-  /@react-navigation/native/5.9.4_react-native@0.64.1+react@17.0.1:
+  /@react-navigation/native/5.9.4_react-native@0.64.2+react@17.0.1:
     resolution: {integrity: sha512-BUCrOXfZDdKWBqM8OhOKQhCX5we4HUo5XG6tCQtVqQAep+7UcApZmMUuemUXDxVe8NPESUpoUlB0RaEpyIdfTQ==}
     peerDependencies:
       react: '*'
@@ -2065,7 +2065,7 @@ packages:
       escape-string-regexp: 4.0.0
       nanoid: 3.1.23
       react: 17.0.1
-      react-native: 0.64.1_react@17.0.1
+      react-native: 0.64.2_react@17.0.1
     dev: false
 
   /@react-navigation/routers/5.7.2:
@@ -2174,7 +2174,7 @@ packages:
       - regenerator-runtime
     dev: true
 
-  /@storybook/addon-ondevice-actions/5.3.23_a047eab088b166460ae342cae1c25379:
+  /@storybook/addon-ondevice-actions/5.3.23_6b85f0d7acc8536f56efda77c68d360f:
     resolution: {integrity: sha512-GntACUPYGSh2d5fWIFMO6iXuGLKaJPVXNb5EsAJRj6UaIjeq0yWQNANowBbv0yXjJwooHiIITTNcYSzh/1AvWg==}
     peerDependencies:
       '@storybook/addon-actions': '*'
@@ -2187,20 +2187,20 @@ packages:
       core-js: 3.16.0
       fast-deep-equal: 2.0.1
       react: 17.0.1
-      react-native: 0.64.1_react@17.0.1
+      react-native: 0.64.2_react@17.0.1
     transitivePeerDependencies:
       - react-dom
       - regenerator-runtime
     dev: true
 
-  /@storybook/addon-ondevice-knobs/5.3.25_4de57f6c55451047c5d9ee12e4465ca2:
+  /@storybook/addon-ondevice-knobs/5.3.25_32655aaa9d047676a340ccd3be2ec9e0:
     resolution: {integrity: sha512-jbPNcbtLv3I7iGUYN7ZCXBPCg2Qr8s06Nz8S+GEYTKr/KqySPi7in2vNeZi7DqYcKe9ZtcbjdCe5emZuIAVu5A==}
     peerDependencies:
       '@storybook/addon-knobs': 5.3.21
       react: '*'
       react-native: '*'
     dependencies:
-      '@emotion/native': 10.0.27_react-native@0.64.1+react@17.0.1
+      '@emotion/native': 10.0.27_react-native@0.64.2+react@17.0.1
       '@storybook/addon-knobs': 5.3.21_react-dom@17.0.2+react@17.0.1
       '@storybook/addons': 5.3.21_react-dom@17.0.2
       '@storybook/core-events': 5.3.21
@@ -2208,8 +2208,8 @@ packages:
       deep-equal: 1.1.1
       prop-types: 15.7.2
       react: 17.0.1
-      react-native: 0.64.1_react@17.0.1
-      react-native-modal-datetime-picker: 7.6.1_react-native@0.64.1+react@17.0.1
+      react-native: 0.64.2_react@17.0.1
+      react-native-modal-datetime-picker: 7.6.1_react-native@0.64.2+react@17.0.1
       react-native-modal-selector: 2.0.7
       tinycolor2: 1.4.2
     transitivePeerDependencies:
@@ -2610,7 +2610,7 @@ packages:
       - webpack-command
     dev: true
 
-  /@storybook/react-native/5.3.25_d0219ef156635efe3d5f0146e18d2fb7:
+  /@storybook/react-native/5.3.25_430b1ed0f5f809d5617ee61aac8bbc91:
     resolution: {integrity: sha512-KPctJdk1++k4byblqTwULmxKDADsRAMat9BgMTx3Gewk4PjMbsbKCvRK7+AlJeNjz/kEsf9L6Y25y8lrw3rPXA==}
     engines: {node: '>=8.0.0'}
     peerDependencies:
@@ -2618,7 +2618,7 @@ packages:
       react-native: '>=0.57.0'
     dependencies:
       '@emotion/core': 10.1.1_react@17.0.1
-      '@emotion/native': 10.0.27_49206b4ff6f638f8275db9ba7db58308
+      '@emotion/native': 10.0.27_19640c4a5f707fd5c5263f51683ec97f
       '@storybook/addons': 5.3.21_react-dom@17.0.2
       '@storybook/channel-websocket': 5.3.21
       '@storybook/channels': 5.3.21
@@ -2627,7 +2627,7 @@ packages:
       core-js: 3.16.0
       emotion-theming: 10.0.27_10fff9175f8ec0d065857495de794004
       react: 17.0.1
-      react-native: 0.64.1_react@17.0.1
+      react-native: 0.64.2_react@17.0.1
       react-native-swipe-gestures: 1.0.5
     transitivePeerDependencies:
       - react-dom
@@ -8461,7 +8461,7 @@ packages:
     resolution: {integrity: sha512-OCG2rtcp5cLEGYvAbfkl6mEc0J2FPRP4/UCEly+juBk7hawS9bCBMBfhJm/HIsvY1frk6nT2Vsl1O8YBbwyx2g==}
     dependencies:
       '@babel/traverse': 7.14.7
-      '@babel/types': 7.14.5
+      '@babel/types': 7.14.8
       invariant: 2.2.4
       metro-symbolicate: 0.64.0
       nullthrows: 1.1.1
@@ -8505,7 +8505,7 @@ packages:
       '@babel/core': 7.14.6
       '@babel/generator': 7.14.5
       '@babel/parser': 7.14.7
-      '@babel/types': 7.14.5
+      '@babel/types': 7.14.8
       babel-preset-fbjs: 3.4.0_@babel+core@7.14.6
       metro: 0.64.0
       metro-babel-transformer: 0.64.0
@@ -8529,7 +8529,7 @@ packages:
       '@babel/parser': 7.14.7
       '@babel/template': 7.14.5
       '@babel/traverse': 7.14.7
-      '@babel/types': 7.14.5
+      '@babel/types': 7.14.8
       absolute-path: 0.0.0
       accepts: 1.3.7
       async: 2.6.3
@@ -9954,11 +9954,11 @@ packages:
       prop-types: 15.7.2
     dev: false
 
-  /react-native-modal-datetime-picker/7.6.1_react-native@0.64.1+react@17.0.1:
+  /react-native-modal-datetime-picker/7.6.1_react-native@0.64.2+react@17.0.1:
     resolution: {integrity: sha512-Ovq0p20Tbw6uWGV0VIDcCQ5qTaHxC9gEcYmB2a4fD1ksCSwCil9RJBEhC7VirvplvAGCKOKs3bblaKFmhiOBkg==}
     dependencies:
       prop-types: 15.7.2
-      react-native-modal: 11.10.0_react-native@0.64.1+react@17.0.1
+      react-native-modal: 11.10.0_react-native@0.64.2+react@17.0.1
     transitivePeerDependencies:
       - react
       - react-native
@@ -9970,7 +9970,7 @@ packages:
       prop-types: 15.7.2
     dev: true
 
-  /react-native-modal/11.10.0_react-native@0.64.1+react@17.0.1:
+  /react-native-modal/11.10.0_react-native@0.64.2+react@17.0.1:
     resolution: {integrity: sha512-syRYDJYSh16bR37R5EKU9T/wC+5bEOfF17IUqf5URdhbEDd+hxyMInC++l45E8oI+MtdOaEp9yAws5xDqk8dnA==}
     peerDependencies:
       react: '*'
@@ -9978,11 +9978,11 @@ packages:
     dependencies:
       prop-types: 15.7.2
       react: 17.0.1
-      react-native: 0.64.1_react@17.0.1
+      react-native: 0.64.2_react@17.0.1
       react-native-animatable: 1.3.3
     dev: true
 
-  /react-native-reanimated/2.2.0_55580e9f4ab510fb7f4b053776d35899:
+  /react-native-reanimated/2.2.0_6c4c06f9e47fbfd33e11ac67420f5729:
     resolution: {integrity: sha512-lOJDd+5w1gY6DHGXG2jD1dsjzQmXQ2699HUc3IztvI2WP4zUT+UAA+zSG+5JiBS5DUnTL8YhhkmUQmr1KNGO5w==}
     peerDependencies:
       react: '*'
@@ -9993,31 +9993,31 @@ packages:
       fbjs: 3.0.0
       mockdate: 3.0.5
       react: 17.0.1
-      react-native: 0.64.1_react@17.0.1
+      react-native: 0.64.2_react@17.0.1
       react-native-gesture-handler: 1.10.3
       string-hash-64: 1.0.3
     transitivePeerDependencies:
       - '@babel/core'
     dev: false
 
-  /react-native-safe-area-context/3.2.0_react-native@0.64.1+react@17.0.1:
+  /react-native-safe-area-context/3.2.0_react-native@0.64.2+react@17.0.1:
     resolution: {integrity: sha512-k2Nty4PwSnrg9HwrYeeE+EYqViYJoOFwEy9LxL5RIRfoqxAq/uQXNGwpUg2/u4gnKpBbEPa9eRh15KKMe/VHkA==}
     peerDependencies:
       react: '*'
       react-native: '*'
     dependencies:
       react: 17.0.1
-      react-native: 0.64.1_react@17.0.1
+      react-native: 0.64.2_react@17.0.1
     dev: false
 
-  /react-native-screens/3.4.0_react-native@0.64.1+react@17.0.1:
+  /react-native-screens/3.4.0_react-native@0.64.2+react@17.0.1:
     resolution: {integrity: sha512-cg+q9MRnVdeOcJyvJtqffoXLur/C2wHA/7IO2+FAipzTlgHbbM1mTuSM7qG+SeiQjoIs4mHOEf7A0ziPKW04sA==}
     peerDependencies:
       react: '*'
       react-native: '*'
     dependencies:
       react: 17.0.1
-      react-native: 0.64.1_react@17.0.1
+      react-native: 0.64.2_react@17.0.1
       warn-once: 0.1.0
     dev: false
 
@@ -10025,15 +10025,15 @@ packages:
     resolution: {integrity: sha512-Ns7Bn9H/Tyw278+5SQx9oAblDZ7JixyzeOczcBK8dipQk2pD7Djkcfnf1nB/8RErAmMLL9iXgW0QHqiII8AhKw==}
     dev: true
 
-  /react-native/0.64.1_react@17.0.1:
-    resolution: {integrity: sha512-jvSj+hNAfwvhaSmxd5KHJ5HidtG0pDXzoH6DaqNpU74g3CmAiA8vuk58B5yx/DYuffGq6PeMniAcwuh3Xp4biQ==}
+  /react-native/0.64.2_react@17.0.1:
+    resolution: {integrity: sha512-Ty/fFHld9DcYsFZujXYdeVjEhvSeQcwuTGXezyoOkxfiGEGrpL/uwUZvMzwShnU4zbbTKDu2PAm/uwuOittRGA==}
     engines: {node: '>=12'}
     hasBin: true
     peerDependencies:
       react: 17.0.1
     dependencies:
       '@jest/create-cache-key-function': 26.6.2
-      '@react-native-community/cli': 5.0.1_react-native@0.64.1
+      '@react-native-community/cli': 5.0.1_react-native@0.64.2
       '@react-native-community/cli-platform-android': 5.0.1
       '@react-native-community/cli-platform-ios': 5.0.1
       '@react-native/assets': 1.0.0
@@ -10298,7 +10298,7 @@ packages:
     dependencies:
       resolve: 1.20.0
 
-  /recoil/0.3.1_d0219ef156635efe3d5f0146e18d2fb7:
+  /recoil/0.3.1_430b1ed0f5f809d5617ee61aac8bbc91:
     resolution: {integrity: sha512-KNA3DRqgxX4rRC8E7fc6uIw7BACmMPuraIYy+ejhE8tsw7w32CetMm8w7AMZa34wzanKKkev3vl3H7Z4s0QSiA==}
     peerDependencies:
       react: '>=16.13.1'
@@ -10313,7 +10313,7 @@ packages:
       hamt_plus: 1.0.2
       react: 17.0.1
       react-dom: 17.0.2_react@17.0.1
-      react-native: 0.64.1_react@17.0.1
+      react-native: 0.64.2_react@17.0.1
     dev: false
 
   /recursive-readdir/2.2.2:
