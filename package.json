@@ -18,6 +18,9 @@
     "template",
     "boilerplate"
   ],
+  "np": {
+    "branch": "main"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/YOURMATADOR/react-native-template-recoil-chabelo.git"
