@@ -2373,6 +2373,34 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@react-navigation/elements@npm:^1.0.4":
+  version: 1.0.4
+  resolution: "@react-navigation/elements@npm:1.0.4"
+  peerDependencies:
+    "@react-navigation/native": ^6.0.0
+    react: "*"
+    react-native: "*"
+    react-native-safe-area-context: ">= 3.0.0"
+  checksum: ca2204201cb0c00073b363c55f90c15602c08a4dab2bfd64f6f3aa7e15cda17214964cdff2255765147d315a37fcd1bbbf7971417f84dbf6d54408d3ec6bd7a9
+  languageName: node
+  linkType: hard
+
+"@react-navigation/native-stack@npm:^6.0.5":
+  version: 6.0.5
+  resolution: "@react-navigation/native-stack@npm:6.0.5"
+  dependencies:
+    "@react-navigation/elements": ^1.0.4
+    warn-once: ^0.1.0
+  peerDependencies:
+    "@react-navigation/native": ^6.0.0
+    react: "*"
+    react-native: "*"
+    react-native-safe-area-context: ">= 3.0.0"
+    react-native-screens: ">= 3.0.0"
+  checksum: 77c45f633910f1a833a19ffaaebf716f788990e50d8084588c4644b04e6aa544e3344d5bf9c87eabbab5004f1aeffc74939022001dc4b23c4d3c9cc99afc295c
+  languageName: node
+  linkType: hard
+
 "@react-navigation/native@npm:^5.9.4":
   version: 5.9.4
   resolution: "@react-navigation/native@npm:5.9.4"
@@ -3583,6 +3611,7 @@ __metadata:
     "@react-native-community/eslint-config": ^2.0.0
     "@react-native-community/masked-view": ^0.1.11
     "@react-navigation/native": ^5.9.4
+    "@react-navigation/native-stack": ^6.0.5
     "@storybook/addon-actions": ^5.3.21
     "@storybook/addon-knobs": ^5.3.21
     "@storybook/addon-links": ^5.3.21
