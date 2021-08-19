@@ -822,11 +822,21 @@ __metadata:
   languageName: node
   linkType: hard
 
+"react-native-localize@npm:^2.1.1":
+  version: 2.1.1
+  resolution: "react-native-localize@npm:2.1.1"
+  peerDependencies:
+    react-native: ">=0.60.0"
+  checksum: 349ce1466302c96b86b197f40ae178e2e770b396ba9b827ef35aa3da5f983445d437ab464da65736aeac865e9ae66cbad538f9885105abbe7856f03fef4dc9fb
+  languageName: node
+  linkType: hard
+
 "react-native-template-recoil-chabelo@workspace:.":
   version: 0.0.0-use.local
   resolution: "react-native-template-recoil-chabelo@workspace:."
   dependencies:
     cz-conventional-changelog: 3.3.0
+    react-native-localize: ^2.1.1
   languageName: unknown
   linkType: soft
 
