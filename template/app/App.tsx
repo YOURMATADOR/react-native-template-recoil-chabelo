@@ -9,16 +9,15 @@
  */
 
 import React from 'react';
-import {Text, View} from 'react-native';
 
 import {RecoilRoot} from 'recoil';
+
+import {Navigator} from './navigators';
 
 const App = () => {
   return (
     <RecoilRoot>
-      <View>
-        <Text>example</Text>
-      </View>
+      <Navigator />
     </RecoilRoot>
   );
 };

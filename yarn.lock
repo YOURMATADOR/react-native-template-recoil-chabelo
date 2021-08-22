@@ -278,15 +278,15 @@ __metadata:
   linkType: hard
 
 "cosmiconfig@npm:^7.0.0":
-  version: 7.0.0
-  resolution: "cosmiconfig@npm:7.0.0"
+  version: 7.0.1
+  resolution: "cosmiconfig@npm:7.0.1"
   dependencies:
     "@types/parse-json": ^4.0.0
     import-fresh: ^3.2.1
     parse-json: ^5.0.0
     path-type: ^4.0.0
     yaml: ^1.10.0
-  checksum: 6801feaa0249e9b9fdde5b3d70dc33b4f9c69095bec94d67e3fe08b66eac24dc7e2099f053597cfbc94b743de269aa5d2cfa7da3fde765433423b06bd122941a
+  checksum: 4be63e7117955fd88333d7460e4c466a90f556df6ef34efd59034d2463484e339666c41f02b523d574a797ec61f4a91918c5b89a316db2ea2f834e0d2d09465b
   languageName: node
   linkType: hard
 
@@ -496,9 +496,9 @@ __metadata:
   linkType: hard
 
 "graceful-fs@npm:^4.1.6, graceful-fs@npm:^4.2.0":
-  version: 4.2.6
-  resolution: "graceful-fs@npm:4.2.6"
-  checksum: 792e64aafda05a151289f83eaa16aff34ef259658cefd65393883d959409f5a2389b0ec9ebf28f3d21f1b0ddc8f594a1162ae9b18e2b507a6799a70706ec573d
+  version: 4.2.8
+  resolution: "graceful-fs@npm:4.2.8"
+  checksum: 5d224c8969ad0581d551dfabdb06882706b31af2561bd5e2034b4097e67cc27d05232849b8643866585fd0a41c7af152950f8776f4dd5579e9853733f31461c6
   languageName: node
   linkType: hard
 

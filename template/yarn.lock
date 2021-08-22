@@ -2358,18 +2358,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@react-navigation/core@npm:^5.16.1":
-  version: 5.16.1
-  resolution: "@react-navigation/core@npm:5.16.1"
+"@react-navigation/core@npm:^6.0.1":
+  version: 6.0.1
+  resolution: "@react-navigation/core@npm:6.0.1"
   dependencies:
-    "@react-navigation/routers": ^5.7.4
+    "@react-navigation/routers": ^6.0.1
     escape-string-regexp: ^4.0.0
-    nanoid: ^3.1.15
-    query-string: ^6.13.6
+    nanoid: ^3.1.23
+    query-string: ^7.0.0
     react-is: ^16.13.0
   peerDependencies:
     react: "*"
-  checksum: 447ce734d54d74498e8bd4dc54c0e04ed5c61130784c2a1173fb2b3560daa1e79fc9002b3d2c3d2d7ebd668350e0516e70b98eef12c1d583a3d2a2fb1cd17d0f
+  checksum: efa72939d322389b82fe547cc9936caa3fc01deb993c6ef119b8c38a2c58fa61e73293a029f759744d50d9333c6d9422ec76ebae1f76a9d33868889fe7bd6968
   languageName: node
   linkType: hard
 
@@ -2401,26 +2401,26 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@react-navigation/native@npm:^5.9.4":
-  version: 5.9.8
-  resolution: "@react-navigation/native@npm:5.9.8"
+"@react-navigation/native@npm:^6.0.2":
+  version: 6.0.2
+  resolution: "@react-navigation/native@npm:6.0.2"
   dependencies:
-    "@react-navigation/core": ^5.16.1
+    "@react-navigation/core": ^6.0.1
     escape-string-regexp: ^4.0.0
-    nanoid: ^3.1.15
+    nanoid: ^3.1.23
   peerDependencies:
     react: "*"
     react-native: "*"
-  checksum: ce3fea764091dd69510fae825ade0de8e534a7f6aec0d9c15813e5a3acae62d8622e508ae9862ed694635f2e459c8451202c5bb14188791c23af331c0bc3a506
+  checksum: 3c58ce2a2513f6af284fdad1c8223bf6131972aadae04212b5596a34a0d56bb7e5c85beb25195c8a3dbda58e20a07eaa82c47650266657f229fa280c53a10b38
   languageName: node
   linkType: hard
 
-"@react-navigation/routers@npm:^5.7.4":
-  version: 5.7.4
-  resolution: "@react-navigation/routers@npm:5.7.4"
+"@react-navigation/routers@npm:^6.0.1":
+  version: 6.0.1
+  resolution: "@react-navigation/routers@npm:6.0.1"
   dependencies:
-    nanoid: ^3.1.15
-  checksum: a51d5e02464682fccbba5fd542eb55e5f486f1c3081e57e26e552b7621a40ac9985f1755d8de664bc5165e461b9eaeb99f995308a8459877e7449dfb226d9e40
+    nanoid: ^3.1.23
+  checksum: 68af62a0081deb5c3b38df6d2c1341636b3de1ea1b81cb03842b1f2192200e17235dac00ec5fda40d66460d3c75ea57e94039b57aee5dff6f98b2947ca1d1b2d
   languageName: node
   linkType: hard
 
@@ -3110,9 +3110,9 @@ __metadata:
   linkType: hard
 
 "@types/node@npm:*":
-  version: 16.6.2
-  resolution: "@types/node@npm:16.6.2"
-  checksum: 2245e50058ac49ab3d76af5ded7fc655d783a88a800139dad6caaf962f15c909287853012c9461b49600741bcc2b09042f94ce734f0440b6ad444d838e62904a
+  version: 16.7.1
+  resolution: "@types/node@npm:16.7.1"
+  checksum: fcf1a2c7b1f19c2201574b2110176b49c6efd824a39b2ed8ac3e6688740e2a35bef95a3334dfa345f4bd4873fd8b79d8ac8cfcc9fcd3d2f4f8f993c2c37ce4ab
   languageName: node
   linkType: hard
 
@@ -3617,7 +3617,7 @@ __metadata:
     "@react-native-community/cli-platform-android": ^5.0.1
     "@react-native-community/eslint-config": ^2.0.0
     "@react-native-community/masked-view": ^0.1.11
-    "@react-navigation/native": ^5.9.4
+    "@react-navigation/native": ^6.0.2
     "@react-navigation/native-stack": ^6.0.5
     "@storybook/addon-actions": ^5.3.21
     "@storybook/addon-knobs": ^5.3.21
@@ -6107,15 +6107,15 @@ __metadata:
   linkType: hard
 
 "cosmiconfig@npm:^7.0.0":
-  version: 7.0.0
-  resolution: "cosmiconfig@npm:7.0.0"
+  version: 7.0.1
+  resolution: "cosmiconfig@npm:7.0.1"
   dependencies:
     "@types/parse-json": ^4.0.0
     import-fresh: ^3.2.1
     parse-json: ^5.0.0
     path-type: ^4.0.0
     yaml: ^1.10.0
-  checksum: 6801feaa0249e9b9fdde5b3d70dc33b4f9c69095bec94d67e3fe08b66eac24dc7e2099f053597cfbc94b743de269aa5d2cfa7da3fde765433423b06bd122941a
+  checksum: 4be63e7117955fd88333d7460e4c466a90f556df6ef34efd59034d2463484e339666c41f02b523d574a797ec61f4a91918c5b89a316db2ea2f834e0d2d09465b
   languageName: node
   linkType: hard
 
@@ -6864,9 +6864,9 @@ __metadata:
   linkType: hard
 
 "electron-to-chromium@npm:^1.3.247, electron-to-chromium@npm:^1.3.811":
-  version: 1.3.813
-  resolution: "electron-to-chromium@npm:1.3.813"
-  checksum: 48d613a43b75543d6f0a697ba4a3cddba456b3949d59759a3c91ea8ed4a860e3b77f6a035862b9fa10f60abb5cc4a3e769ef58bbd95951186dc9cf09bb6940c1
+  version: 1.3.814
+  resolution: "electron-to-chromium@npm:1.3.814"
+  checksum: 5d74e2fdb46a2edff9d3940a7419aaa950ec07ef0bb89e843a4320222fe14b811b34079ffeac2f04cd21c468c71c10f6921b7e13648b6309f98f5cd42030726d
   languageName: node
   linkType: hard
 
@@ -11753,7 +11753,7 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"nanoid@npm:^3.1.15":
+"nanoid@npm:^3.1.23":
   version: 3.1.25
   resolution: "nanoid@npm:3.1.25"
   bin:
@@ -13147,15 +13147,15 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"query-string@npm:^6.13.6":
-  version: 6.14.1
-  resolution: "query-string@npm:6.14.1"
+"query-string@npm:^7.0.0":
+  version: 7.0.1
+  resolution: "query-string@npm:7.0.1"
   dependencies:
     decode-uri-component: ^0.2.0
     filter-obj: ^1.1.0
     split-on-first: ^1.0.0
     strict-uri-encode: ^2.0.0
-  checksum: f2c7347578fa0f3fd4eaace506470cb4e9dc52d409a7ddbd613f614b9a594d750877e193b5d5e843c7477b3b295b857ec328903c943957adc41a3efb6c929449
+  checksum: 2eb990c0eaa80998d074aac2ad5bcc7f21fa2e53a7d129d19883abe724a2eedb987ca81b731755307431914b0f958767bfe7c5f7433d0974a1650b5d313e5618
   languageName: node
   linkType: hard
 

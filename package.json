@@ -32,7 +32,7 @@
   "homepage": "https://github.com/YOURMATADOR/react-native-template-recoil-chabelo#readme.md",
   "author": "Eduardo Avila <business@eduaravila.com>",
   "license": "MIT",
-  "packageManager": "yarn@3.0.0",
+  "packageManager": "yarn@3.0.1",
   "devDependencies": {
     "cz-conventional-changelog": "3.3.0"
   },
