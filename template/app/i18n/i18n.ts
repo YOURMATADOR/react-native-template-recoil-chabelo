@@ -21,12 +21,24 @@ type RecursiveKeyOf<TObj extends Record<string, any>> = {
     : `${TKey}`
 }[keyof TObj & string]
 
+// "common.ok"
 
+// "common": {
+//     "ok": "OK!",
+//     "cancel": "Cancel",
+//     "back": "Back"
+//   },
 
-// TObj = {"example":1}
-// TObj = {"example2":"2"}
-// TObj = {"example3":{}}
-// TKey = "example" | "example2" | "example3"
+// TObj = {"common":{...common}}
+
+// TKey = "common"
+
+// value = {
+//     "ok": "OK!",
+//     "cancel": "Cancel",
+//     "back": "Back"
+//   }
+
 
 
 // example ----  1:{"example":1}
