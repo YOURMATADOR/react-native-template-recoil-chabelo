@@ -20,3 +20,13 @@ type RecursiveKeyOf<TObj extends Record<string, any>> = {
     ? `${TKey}` | `${TKey}.${RecursiveKeyOf<TObj[TKey]>}`
     : `${TKey}`
 }[keyof TObj & string]
+
+
+
+// TObj = {"example":1}
+// TObj = {"example2":"2"}
+// TObj = {"example3":{}}
+// TKey = "example" | "example2" | "example3"
+
+
+// example ----  1:{"example":1}
