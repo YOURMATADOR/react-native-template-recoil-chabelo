@@ -7,7 +7,7 @@ interface ExampleAtom {
 
 const exampleAtom = atom({
   key: 'exampleAtom',
-  default: {} as ExampleAtom,
+  default: 'default' as string,
 });
 
 export default exampleAtom;
