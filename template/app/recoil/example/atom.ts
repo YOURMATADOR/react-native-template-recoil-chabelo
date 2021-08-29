@@ -1,4 +1,4 @@
-import {atom} from 'recoil';
+import { atom } from 'recoil';
 
 interface ExampleAtom {
   name: string;
@@ -7,7 +7,7 @@ interface ExampleAtom {
 
 const exampleAtom = atom({
   key: 'exampleAtom',
-  default: 'default' as string,
+  default: {} as ExampleAtom,
 });
 
 export default exampleAtom;

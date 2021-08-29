@@ -1,0 +1,9 @@
+{
+  "eslint.workingDirectories": ["./template"],
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "html",
+    "typescriptreact"
+  ]
+}

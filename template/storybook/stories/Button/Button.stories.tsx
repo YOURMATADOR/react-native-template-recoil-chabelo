@@ -1,9 +1,7 @@
 import {action} from '@storybook/addon-actions';
-import {storiesOf} from '@storybook/react';
 import React from 'react';
 import {Text} from 'react-native';
 import Button from '.';
-import CenterView from '../CenterView';
 
 export default {
   component: Button,
@@ -28,4 +26,3 @@ export const Emoji = ({text = 'iahuu'}) => {
     </Button>
   );
 };
-

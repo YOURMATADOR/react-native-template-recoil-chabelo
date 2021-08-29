@@ -10,11 +10,11 @@
 
 import React from 'react';
 
-import {RecoilRoot} from 'recoil';
+import { RecoilRoot } from 'recoil';
 
-import {Navigator} from './navigators';
+import { Navigator } from './navigators';
 
-const App = () => {
+const App = (): JSX.Element => {
   return (
     <RecoilRoot>
       <Navigator />
