@@ -13,6 +13,7 @@ i18n.locale = Localization.locale || "en"
  * Update to your default locale of choice if not English.
  */
 type DefaultLocale = typeof en
+
 export type TxKeyPath = RecursiveKeyOf<DefaultLocale>
 
 type RecursiveKeyOf<TObj extends Record<string, any>> = {

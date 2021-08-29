@@ -5,11 +5,27 @@ import {Text} from 'react-native';
 import Button from '.';
 import CenterView from '../CenterView';
 
- 
-storiesOf('Button', module)
-  .addDecorator(getStory => <CenterView>{getStory()}</CenterView>)
-  .add('with some emoji', () => (
+export default {
+  component: Button,
+  title: 'Button',
+  argTypes: {
+    children: {
+      control: false,
+    },
+    text: {
+      description: 'Some awesome description',
+      control: {
+        type: 'text',
+      },
+    },
+  },
+};
+
+export const Emoji = ({text = 'iahuu'}) => {
+  return (
     <Button onPress={action('clicked-emoji')}>
-      <Text>😀 😎 👍 💯</Text>
+      <Text>🦾{text}🔥</Text>
     </Button>
-  ));
+  );
+};
+
