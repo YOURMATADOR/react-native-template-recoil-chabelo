@@ -8,6 +8,7 @@ module.exports = {
     'airbnb',
     'airbnb-typescript',
     'prettier',
+    'plugin:react-native/all',
     'plugin:@typescript-eslint/recommended',
     'plugin:react-hooks/recommended',
   ],
@@ -32,5 +33,6 @@ module.exports = {
     'react-hooks/exhaustive-deps': 'warn',
     'react/jsx-props-no-spreading': 0,
     'import/no-extraneous-dependencies': [0, { devDependencies: false }],
+    'import/prefer-default-export': 0,
   },
 };

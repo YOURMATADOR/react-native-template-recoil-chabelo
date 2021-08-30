@@ -1,6 +1,6 @@
-import {action} from '@storybook/addon-actions';
+import { action } from '@storybook/addon-actions';
 import React from 'react';
-import {Text} from 'react-native';
+import { Text } from 'react-native';
 import Button from '.';
 
 export default {
@@ -19,7 +19,7 @@ export default {
   },
 };
 
-export const Emoji = ({text = 'iahuu'}) => {
+export const Emoji = ({ text = 'iahuu' }) => {
   return (
     <Button onPress={action('clicked-emoji')}>
       <Text>🦾{text}🔥</Text>

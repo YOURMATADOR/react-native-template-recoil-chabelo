@@ -1,10 +1,11 @@
 import React from 'react';
 import { View, Text } from 'react-native';
 
-export default function Button() {
+export const Button = (): JSX.Element => {
+  
   return (
     <View>
       <Text></Text>
     </View>
   );
-}
+};
