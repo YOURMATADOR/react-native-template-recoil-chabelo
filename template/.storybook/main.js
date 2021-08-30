@@ -9,8 +9,8 @@ module.exports = {
     propFilter: (prop) => (prop.parent ? !/node_modules/.test(prop.parent.fileName) : true),
   },
   stories: [
-    '../app/**/*.stories.@(js|mdx)',
-    '../storybook/stories/**/*.stories.@(js|mdx)',
+    '../app/**/*.story.@(js|mdx|tsx)',
+    '../storybook/stories/**/*.story.@(js|mdx|tsx)',
   ],
   addons: [
     '@storybook/addon-docs',
