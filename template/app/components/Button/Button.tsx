@@ -1,7 +1,9 @@
 import React from 'react';
 import { View, Text } from 'react-native';
 
-export const Button = (): JSX.Element => {
+import { ButtonProps } from './Button.props';
+
+export const Button = (props: ButtonProps): JSX.Element => {
   return (
     <View>
       <Text></Text>

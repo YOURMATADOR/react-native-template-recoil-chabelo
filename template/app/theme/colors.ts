@@ -12,5 +12,5 @@ export const colorsDark = {
 };
 type ColorsDarkType = typeof colorsDark;
 
-export const THEME = (): ColorsDarkType | ColorsLightType =>
+export const THEME: ColorsDarkType | ColorsLightType =
   Appearance.getColorScheme() === 'dark' ? colorsDark : colorsLight;
