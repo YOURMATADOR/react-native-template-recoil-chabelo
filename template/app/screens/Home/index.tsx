@@ -10,6 +10,7 @@ export const HomeScreen = () => {
     <View>
       <Text>Home Screen</Text>
       <Text>{emojis}</Text>
+      
     </View>
   );
 };

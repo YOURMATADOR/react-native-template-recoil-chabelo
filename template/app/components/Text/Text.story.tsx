@@ -1,11 +1,10 @@
 import { action } from '@storybook/addon-actions';
 import React from 'react';
-import { Text } from 'react-native';
-import { Button } from '.';
+import { Text } from '.';
 
 export default {
-  component: Button,
-  title: 'Button',
+  component: Text,
+  title: 'Text',
   argTypes: {
     children: {
       control: false,
@@ -22,7 +21,5 @@ export default {
 export const Emoji = ({
   text = 'iahuu',
 }: Record<string, string>): JSX.Element => (
-  <Button onPress={action('clicked-emoji')} flavor="primary">
-    <Text>🦾{text}🔥</Text>
-  </Button>
+  <Text onPress={action('clicked-emoji')}>🦾{text}🔥</Text>
 );

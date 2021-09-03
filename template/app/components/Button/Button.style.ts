@@ -6,8 +6,8 @@ const BASE: ViewStyle = {
   alignItems: 'center',
 };
 
-export const viewPreset: Record<string, ViewStyle> = {
-  primary: { ...BASE, backgroundColor: THEME.primary },
-};
+export type ButtonPresetNames = 'primary';
 
-export type ButtonPresetNames = keyof typeof viewPreset;
+export const viewPreset: Record<ButtonPresetNames | string, ViewStyle> = {
+  primary: { ...BASE, backgroundColor: THEME.primary } as ViewStyle,
+};

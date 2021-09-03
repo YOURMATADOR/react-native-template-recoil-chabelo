@@ -1,14 +1,11 @@
+import I18n from 'i18n-js';
 import React from 'react';
-import {
-  StyleProp,
-  TextStyle,
-  TouchableOpacityProps,
-  ViewStyle,
-} from 'react-native';
-import { TxKeyPath } from '../../i18n';
-import { ButtonPresetNames } from './Button.style';
+import { StyleProp, TextStyle, TouchableOpacityProps } from 'react-native';
 
-export interface ButtonProps extends TouchableOpacityProps {
+import { TxKeyPath } from '../../i18n';
+import { TextPresetNames } from './Text.style';
+
+export interface TextProps extends TouchableOpacityProps {
   /**
    * use this if there is no key available in the i18n files
    */
@@ -29,9 +26,7 @@ export interface ButtonProps extends TouchableOpacityProps {
    */
   children?: React.ReactNode;
 
-  style?: StyleProp<ViewStyle>;
+  style?: StyleProp<TextStyle>;
 
-  textStyle?: StyleProp<TextStyle>;
-
-  flavor?: ButtonPresetNames;
+  flavor?: TextPresetNames;
 }
